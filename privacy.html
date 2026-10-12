@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>*{box-sizing:border-box}</style>
+<title>Sodie Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400&display=swap">
+<style>
+  /* Layout: a single reading column, like a printed policy; sections separated by quiet rules. */
+  :root {
+    --bg: #fbfaf7;
+    --fg: #1f2328;
+    --muted: #5d6470;
+    --rule: #e3dfd6;
+    --accent: #0b7a6b;
+    --panel: #f2efe8;
+    --display: "Fraunces", Georgia, "Times New Roman", serif;
+    --body: "Source Sans 3", -apple-system, "Segoe UI", Roboto, sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #15181c; --fg: #e7e9ec; --muted: #9aa2ad; --rule: #2a2f36; --accent: #4cc3b0; --panel: #1c2026;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #15181c; --fg: #e7e9ec; --muted: #9aa2ad; --rule: #2a2f36; --accent: #4cc3b0; --panel: #1c2026;
+    color-scheme: dark;
+  }
+  body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 17px; line-height: 1.6; }
+  .page { max-width: 68ch; margin: 0 auto; padding-inline: 20px; padding-block: 56px 72px; }
+  header { display: grid; gap: 10px; padding-bottom: 28px; border-bottom: 1px solid var(--rule); }
+  .eyebrow { font-family: var(--mono); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+  h1 { font-family: var(--display); font-weight: 600; font-size: clamp(32px, 6vw, 44px); line-height: 1.1; margin: 0; text-wrap: balance; }
+  .meta { color: var(--muted); font-size: 15px; margin: 0; }
+  section { padding-block: 26px; border-bottom: 1px solid var(--rule); display: grid; gap: 12px; }
+  section:last-of-type { border-bottom: 0; }
+  h2 { font-family: var(--display); font-weight: 600; font-size: 22px; margin: 0; text-wrap: balance; }
+  p, ul { margin: 0; }
+  ul { padding-left: 1.2em; display: grid; gap: 6px; }
+  strong { font-weight: 600; }
+  a { color: var(--accent); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .table-wrap { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: 15px; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { font-family: var(--mono); font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); font-weight: 400; }
+  td:last-child { white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .note { background: var(--panel); padding: 14px 16px; border-radius: 6px; font-size: 16px; }
+  footer { color: var(--muted); font-size: 14px; padding-top: 28px; }
+</style>
+</head>
+<body>
+<main class="page">
+  <header>
+    <span class="eyebrow">Discord bot · SODAX server</span>
+    <h1>Sodie Privacy Policy</h1>
+    <p class="meta">Effective 12 October 2026</p>
+  </header>
+
+  <section>
+    <h2>Who we are</h2>
+    <p>Sodie is a moderation and community bot run by the SODAX community team for one Discord server: the official SODAX server. It is not a public bot and can't be added to other servers. This policy explains what Sodie collects there, why, how long it keeps it and how to reach us.</p>
+  </section>
+
+  <section>
+    <h2>What Sodie collects and why</h2>
+    <ul>
+      <li><strong>Member information</strong> (Discord user ID, username, display name, join date, roles). Used to verify new members with a captcha, detect join raids and staff-impersonation names, give roles, and log joins and leaves for moderators.</li>
+      <li><strong>Message content</strong> in channels Sodie can see. Checked as it's posted for spam, phishing links, scam patterns, mass mentions and unauthorised invite or OAuth links. Most messages are checked and then forgotten; Sodie does not keep a copy of normal chat.</li>
+      <li><strong>Flagged messages.</strong> When a message looks like a scam, its text is kept in a moderator review queue until staff handle the alert.</li>
+      <li><strong>Support tickets.</strong> When a ticket is archived, Sodie saves its messages and attachments as a transcript so staff can restore the ticket or look back at a case.</li>
+      <li><strong>Moderation records.</strong> Warnings, bans, verification status and security log entries.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>How long we keep it</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Data</th><th>Kept for</th></tr></thead>
+        <tbody>
+          <tr><td>Security log entries</td><td>90 days</td></tr>
+          <tr><td>Warnings</td><td>180 days</td></tr>
+          <tr><td>Handled scam alerts</td><td>30 days</td></tr>
+          <tr><td>Ticket transcripts</td><td>Until staff delete them, or on request</td></tr>
+          <tr><td>Normal chat messages</td><td>Not stored</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Everything is stored in a private database on a server the SODAX team controls. If Sodie leaves the server, that server's data is deleted.</p>
+  </section>
+
+  <section>
+    <h2>Who we share it with</h2>
+    <p>We never sell data or share it for advertising. Data leaves Sodie's own server only in these cases:</p>
+    <ul>
+      <li><strong>Discord</strong>, which hosts the conversations Sodie works in (see Discord's own privacy policy).</li>
+      <li><strong>Auto-translation.</strong> In channels where staff turn translation on, the message text is sent to an AI translation service (NVIDIA) to produce the translation.</li>
+      <li><strong>AI scam review.</strong> Optionally, the text of a message already flagged as a possible scam may be sent to an AI model (Anthropic) for a second opinion for moderators.</li>
+    </ul>
+    <p class="note">Your messages and data are never used to train any AI or machine-learning model. The services above only return one answer per request.</p>
+  </section>
+
+  <section>
+    <h2>Your choices</h2>
+    <p>Scam and spam protection applies to everyone in the server, so you can't opt out of message checks while you are a member. Leaving the server stops all collection. You can ask us to see or delete data Sodie holds about you, including ticket transcripts, except where we need to keep a record of a ban to protect the community.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Open a support ticket in the SODAX Discord server and ask for the privacy team. We aim to answer within 30 days.</p>
+  </section>
+
+  <section>
+    <h2>Changes</h2>
+    <p>If we change how Sodie handles data, we'll update this page and the date at the top.</p>
+  </section>
+
+  <footer>Sodie · operated by the SODAX community team</footer>
+</main>
+</body>
+</html>
